@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Salesforce 認定 アドミニストレーター</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 アドミニストレーター</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 上級アドミニストレーター</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 上級アドミニストレーター</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 Sales Cloud コンサルタント</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 Sales Cloud コンサルタント</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 Service Cloud コンサルタント</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 Service Cloud コンサルタント</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 Field Service Lightning コンサルタント</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 Field Service Lightning コンサルタント</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 Community Cloud コンサルタント</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 Community Cloud コンサルタント</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 Platform アプリケーションビルダー</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 Platform アプリケーションビルダー</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 Platform デベロッパー</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 Platform デベロッパー</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定上級 Platform デベロッパー（1次）</fullName>
+        <default>false</default>
+        <label>Salesforce 認定上級 Platform デベロッパー（1次）</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 Einstein Analytics and Discovery コンサルタント</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 Einstein Analytics and Discovery コンサルタント</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 B2C Commerce デベロッパー</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 B2C Commerce デベロッパー</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 Pardot スペシャリスト</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 Pardot スペシャリスト</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 Pardot コンサルタント</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 Pardot コンサルタント</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 Marketing Cloud メールスペシャリスト</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 Marketing Cloud メールスペシャリスト</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 Marketing Cloud コンサルタント</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 Marketing Cloud コンサルタント</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce 認定 CPQ スペシャリスト</fullName>
+        <default>false</default>
+        <label>Salesforce 認定 CPQ スペシャリスト</label>
+    </customValue>
+    <masterLabel>Salesforce認定資格</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
