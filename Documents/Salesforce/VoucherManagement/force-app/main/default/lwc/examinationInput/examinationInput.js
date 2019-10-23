@@ -1,12 +1,7 @@
-import { LightningElement, track, api } from 'lwc';
+import { LightningElement, track, wire } from 'lwc';
 import getVoucherList from '@salesforce/apex/ExaminationInputController.getVoucherList';
 import { refreshApex } from '@salesforce/apex';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
-import { updateRecord } from 'lightning/uiRecordApi';
-import ID_FIELD from '@salesforce/schema/ExaminationInfo__c.Id';
-import EXAM_FIELD from '@salesforce/schema/ExaminationInfo__c.Exam__c';
-import WILLEXAM_FIELD from '@salesforce/schema/ExaminationInfo__c.WillExam__c';
-import PASSORFAIL_FIELD from '@salesforce/schema/ExaminationInfo__c.PassOrFail__c';
 
 const actions = [
     { label: '編集', name: 'edit', iconName : 'utility:edit' }
@@ -31,68 +26,62 @@ export default class ExaminationInput extends LightningElement {
     @track rowOffset = 0;
     @track editmode = false;
     @track examid;
-    @track exam;
-    @track examdate;
-    @track pof;
+    @track isSuccess = false;
+    @track isError = false;
+    @track errordetail;
+    wiredVoucherResult;
 
-    async connectedCallback() {
-        this.voucher = await getVoucherList();
+    @wire(getVoucherList) wireGetVoucherList(result) {
+        this.wiredVoucherResult = result;
+        this.voucher = result.data;
     }
-
+    
     handleRowAction(e){
         const row = e.detail.row;
         this.examid = row.Id;
-        this.exam = row.Exam__c;
-        this.examdate = row.WillExam__c;
-        this.pof = row.PassOrFail__c;
         this.editmode = true;
     }
 
     handleSuccess(e){
+        this.isSuccess = true;
+        this.isError = false;
         this.editmode = false;
+        this.errordetail = undefined;
+        /* 
         this.dispatchEvent(
             new ShowToastEvent({
                 title: 'Success',
                 message: '更新しました！',
                 variant: 'success'
             })
-        );
+        );*/
+        return refreshApex(this.wiredVoucherResult);
     }
 
-    saveRecord(){
-        const fields = {};
-        fields[ID_FIELD.fieldApiName] = this.examid;
-        fields[EXAM_FIELD.fieldApiName] = this.exam;
-        fields[WILLEXAM_FIELD.fieldApiName] = this.examdate;
-        fields[PASSORFAIL_FIELD.fieldApiName] = this.pof;
-        
-        const recordInput = { fields };
-        console.log(fields);
-        updateRecord(recordInput)
-            .then(() => {
-                this.editmode = false;
-                this.dispatchEvent(
-                    new ShowToastEvent({
-                        title: 'Success',
-                        message: '更新しました！',
-                        variant: 'success'
-                    })
-                );
-                // Display fresh data in the form
-                //return refreshApex(this.examid);
+    handleError(e){
+        this.editmode = false;
+        this.isError = true;
+        this.isSuccess = false;
+        this.errordetail = e.detail.detail;
+        /*
+        this.dispatchEvent(
+            new ShowToastEvent({
+                title: 'Error',
+                message: e.detail.detail,
+                variant: 'error'
             })
-            .catch(error => {
-                this.dispatchEvent(
-                    new ShowToastEvent({
-                        title: 'Error',
-                        message: JSON.stringify(error.message.body),
-                        variant: 'error'
-                    })
-                );
-            });
+        );*/
     }
 
     closeModal(){
         this.editmode = false;
+    }
+
+    closeSuccessToast(){
+        this.isSuccess = false;
+    }
+
+    closeErrorToast() {
+        this.isError = false;
     }
 }
