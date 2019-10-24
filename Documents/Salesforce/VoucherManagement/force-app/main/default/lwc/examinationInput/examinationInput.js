@@ -1,7 +1,6 @@
 import { LightningElement, track, wire } from 'lwc';
 import getVoucherList from '@salesforce/apex/ExaminationInputController.getVoucherList';
 import { refreshApex } from '@salesforce/apex';
-import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
 const actions = [
     { label: '編集', name: 'edit', iconName : 'utility:edit' }
@@ -47,14 +46,7 @@ export default class ExaminationInput extends LightningElement {
         this.isError = false;
         this.editmode = false;
         this.errordetail = undefined;
-        /* 
-        this.dispatchEvent(
-            new ShowToastEvent({
-                title: 'Success',
-                message: '更新しました！',
-                variant: 'success'
-            })
-        );*/
+        
         return refreshApex(this.wiredVoucherResult);
     }
 
@@ -63,14 +55,6 @@ export default class ExaminationInput extends LightningElement {
         this.isError = true;
         this.isSuccess = false;
         this.errordetail = e.detail.detail;
-        /*
-        this.dispatchEvent(
-            new ShowToastEvent({
-                title: 'Error',
-                message: e.detail.detail,
-                variant: 'error'
-            })
-        );*/
     }
 
     closeModal(){
