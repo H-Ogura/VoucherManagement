@@ -1,134 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>Salesforce 認定 アドミニストレーター</fullName>
+        <fullName>アドミニストレーター</fullName>
         <default>false</default>
-        <label>Salesforce 認定 アドミニストレーター</label>
+        <label>アドミニストレーター</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 上級アドミニストレーター</fullName>
+        <fullName>上級アドミニストレーター</fullName>
         <default>false</default>
-        <label>Salesforce 認定 上級アドミニストレーター</label>
+        <label>上級アドミニストレーター</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Sales Cloud コンサルタント</fullName>
+        <fullName>Sales Cloud コンサルタント</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Sales Cloud コンサルタント</label>
+        <label>Sales Cloud コンサルタント</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Service Cloud コンサルタント</fullName>
+        <fullName>Service Cloud コンサルタント</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Service Cloud コンサルタント</label>
+        <label>Service Cloud コンサルタント</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Field Service Lightning コンサルタント</fullName>
+        <fullName>Field Service Lightning コンサルタント</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Field Service Lightning コンサルタント</label>
+        <label>Field Service Lightning コンサルタント</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Community Cloud コンサルタント</fullName>
+        <fullName>Community Cloud コンサルタント</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Community Cloud コンサルタント</label>
+        <label>Community Cloud コンサルタント</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Platform アプリケーションビルダー</fullName>
+        <fullName>Platform アプリケーションビルダー</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Platform アプリケーションビルダー</label>
+        <label>Platform アプリケーションビルダー</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Platform デベロッパー</fullName>
+        <fullName>Platform デベロッパー</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Platform デベロッパー</label>
+        <label>Platform デベロッパー</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定上級 Platform デベロッパー（1次）</fullName>
+        <fullName>上級 Platform デベロッパー（1次）</fullName>
         <default>false</default>
-        <label>Salesforce 認定上級 Platform デベロッパー（1次）</label>
+        <label>上級 Platform デベロッパー（1次）</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Einstein Analytics and Discovery コンサルタント</fullName>
+        <fullName>Einstein Analytics and Discovery コンサルタント</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Einstein Analytics and Discovery コンサルタント</label>
+        <label>Einstein Analytics and Discovery コンサルタント</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 B2C Commerce デベロッパー</fullName>
+        <fullName>B2C Commerce デベロッパー</fullName>
         <default>false</default>
-        <label>Salesforce 認定 B2C Commerce デベロッパー</label>
+        <label>B2C Commerce デベロッパー</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Pardot スペシャリスト</fullName>
+        <fullName>Pardot スペシャリスト</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Pardot スペシャリスト</label>
+        <label>Pardot スペシャリスト</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Pardot コンサルタント</fullName>
+        <fullName>Pardot コンサルタント</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Pardot コンサルタント</label>
+        <label>Pardot コンサルタント</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Marketing Cloud メールスペシャリスト</fullName>
+        <fullName>Marketing Cloud メールスペシャリスト</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Marketing Cloud メールスペシャリスト</label>
+        <label>Marketing Cloud メールスペシャリスト</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Marketing Cloud コンサルタント</fullName>
+        <fullName>Marketing Cloud コンサルタント</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Marketing Cloud コンサルタント</label>
+        <label>Marketing Cloud コンサルタント</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 CPQ スペシャリスト</fullName>
+        <fullName>CPQ スペシャリスト</fullName>
         <default>false</default>
-        <label>Salesforce 認定 CPQ スペシャリスト</label>
+        <label>CPQ スペシャリスト</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定テクニカルアーキテクト</fullName>
+        <fullName>テクニカルアーキテクト</fullName>
         <default>false</default>
-        <label>Salesforce 認定テクニカルアーキテクト</label>
+        <label>テクニカルアーキテクト</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定システムアーキテクト</fullName>
+        <fullName>システムアーキテクト</fullName>
         <default>false</default>
-        <label>Salesforce 認定システムアーキテクト</label>
+        <label>システムアーキテクト</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定アプリケーションアーキテクト</fullName>
+        <fullName>アプリケーションアーキテクト</fullName>
         <default>false</default>
-        <label>Salesforce 認定アプリケーションアーキテクト</label>
+        <label>アプリケーションアーキテクト</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Data Architecture and Management デザイナー</fullName>
+        <fullName>Data Architecture and Management デザイナー</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Data Architecture and Management デザイナー</label>
+        <label>Data Architecture and Management デザイナー</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Sharing and Visibility デザイナー</fullName>
+        <fullName>Sharing and Visibility デザイナー</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Sharing and Visibility デザイナー</label>
+        <label>Sharing and Visibility デザイナー</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Development Lifecycle and Deployment デザイナー</fullName>
+        <fullName>Development Lifecycle and Deployment デザイナー</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Development Lifecycle and Deployment デザイナー</label>
+        <label>Development Lifecycle and Deployment デザイナー</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Identity and Access Management デザイナー</fullName>
+        <fullName>Identity and Access Management デザイナー</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Identity and Access Management デザイナー</label>
+        <label>Identity and Access Management デザイナー</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Integration Architecture デザイナー</fullName>
+        <fullName>Integration Architecture デザイナー</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Integration Architecture デザイナー</label>
+        <label>Integration Architecture デザイナー</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 Heroku Architecture デザイナー</fullName>
+        <fullName>Heroku Architecture デザイナー</fullName>
         <default>false</default>
-        <label>Salesforce 認定 Heroku Architecture デザイナー</label>
+        <label>Heroku Architecture デザイナー</label>
     </customValue>
     <customValue>
-        <fullName>Salesforce 認定 B2C Commerce Technical Solution デザイナー</fullName>
+        <fullName>B2C Commerce Technical Solution デザイナー</fullName>
         <default>false</default>
-        <label>Salesforce 認定 B2C Commerce Technical Solution デザイナー</label>
+        <label>B2C Commerce Technical Solution デザイナー</label>
     </customValue>
     <masterLabel>Salesforce認定資格</masterLabel>
     <sorted>false</sorted>
